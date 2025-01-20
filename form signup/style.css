@@ -1,0 +1,343 @@
+header{
+    border-bottom-style: groove;
+    background-color: white;
+    padding: 12px 120px;
+    border-bottom: 1px;
+    border-color: #3A35411F;
+}   
+.logo{
+    display: flex;
+    justify-content: left;
+}
+.background{
+    display: flex;
+    background-color: #FFFDEE;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 944px;
+}
+
+.signup {
+    display: table-column;
+    justify-content: center;
+    padding: 36px;
+    border: 1px solid #F1F1F1 ;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    width: 590px;
+    height: auto;
+    text-align: center;
+}
+
+.signup-top {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-top h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 35.2px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.signup-top p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #333333AD;
+}
+
+.signup_btm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.separator {
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+    color: #4A505C;
+    overflow: hidden;
+    text-align: center;
+    margin: 24px 0;
+    position: relative;
+    width: 100%;
+}
+
+.separator>span{
+    position: relative;
+    display: inline-block;
+    padding: 0;
+}
+
+.separator>span:before,
+.separator>span:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-bottom: 1px solid;
+    width: 590px;
+    margin: 0 20px;
+    border-color: #F1F1F1;
+}
+
+.separator>span:before {
+    right: 100%;
+    margin-right: 10px;
+}
+
+.separator>span:after {
+    left: 100%;
+    margin-left: 10px;
+}
+
+.namalengkap label{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4A505C;
+    text-align: start;
+    padding: 4px;
+}
+
+
+.namalengkap{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4A505C;
+    text-align: left;
+    padding: 4px;
+}
+
+.namalengkap input {
+    width: 518px;
+    height: 48px;
+    border-radius: 6px;
+    border-color: #F1F1F1;
+    border: 1px solid #F1F1F1;
+}
+
+.email{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4A505C;
+    text-align: left;
+    padding: 4px;
+}
+
+.email input {
+    width: 518px;
+    height: 48px;
+    border-radius: 6px;
+    border-color: #F1F1F1;
+    border: 1px solid #F1F1F1;
+}
+
+.nohp {
+    justify-content: space-between;
+    width: 531px;
+    height: auto;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4A505C;
+    text-align: left;
+}
+
+
+.nohp select {
+    border: 1px;
+    background-repeat: no-repeat;
+}
+.nohp select option{
+    flex-direction: row;
+    text-align: center;
+
+}
+
+
+.nohp input {
+    width: 337.33px;
+    height: 48px;
+    border-radius: 6px;
+    border-color: #F1F1F1;
+    border: 1px solid #F1F1F1;
+}
+.nohp select{
+    width: 150px;
+    height: 48px;
+    border-radius: 6px;
+    border-color: #F1F1F1;
+    border: 1px solid #F1F1F1;
+    margin-right: 30px;
+}
+
+.password{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4A505C;
+    text-align: left;
+    padding: 4px;
+}
+
+.password .background{
+        background-image: url("logo\Vector.svg");
+        background-size: 24px 24px;
+        background-position: 5px;
+        background-repeat: no-repeat;
+        padding-left: 30px;
+}
+
+.password input {
+    width: 518px;
+    height: 48px;
+    border-radius: 6px;
+    border-color: #F1F1F1;
+    border: 1px solid #F1F1F1;
+}
+
+.c_password{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4A505C;
+    text-align: left;
+    padding: 4px;
+}
+
+.c_password input {
+    width: 518px;
+    height: 48px;
+    border-radius: 6px;
+    border-color: #F1F1F1;
+    border: 1px solid #F1F1F1;
+}
+
+.lupapassword h4 {
+    display: flex;
+    color: #333333AD; 
+    size: 16px;
+    font-family: 'DM Sans', sans-serif;
+    align-items: center ;
+    font-weight: 500;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    margin-left: 410px;
+}
+
+.daftar {
+    width: 518px;
+    height: 48px;
+    border-radius: 10px;
+    border-color: #3ECF4C;
+    background-color: #3ECF4C;
+    color: #FFFFFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-style: solid;
+    margin-bottom: 10px;
+}
+
+.masuk  {
+    width: 518px;
+    height: 48px;
+    border-radius: 10px;
+    border-color: #E2FCD9CC;
+    background-color: #E2FCD9CC;
+    text-align: center;
+    color: #3ECF4C;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;   
+    border-style: solid;
+    margin-bottom: 15px;    
+}
+
+.btngoogle-btn {
+    width: 518px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border-color: #F1F1F1;
+    color: #4A505C;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+    color: #4A505C;
+    font-weight: 700;
+    margin-top: 15px ;
+    margin-bottom: 10px;
+}
+
+.namalengkap span, .email span, .nohp span, .password span, .c_password span {
+    color: red;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 12px 20px;
+    }
+
+    .background {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+    }
+
+    .signup {
+        width: 90%;
+        padding: 20px;
+        margin: 0 10px;
+    }
+    
+    .nohp {
+        width: 82%;
+        flex-wrap: wrap;
+    }
+
+    .nohp select {
+        width: 30%;
+        margin-right: 0;
+    }
+
+    .nohp input {
+        width: calc(70% - 10px);
+    }
+
+
+    .signup-top h1 {
+        text-align: center;
+    }
+
+    .signup-top p {
+        font-size: 14px;
+    }
+
+    .separator>span:before,
+    .separator>span:after {
+        width: 40%;
+    }
+
+    .daftar button ,
+    .masuk button , 
+    .btngoogle-btn {
+        width: 85%;
+    }
+
+}

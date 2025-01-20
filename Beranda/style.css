@@ -1,0 +1,835 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-position: right;
+    text-align: right;
+    border-bottom-style: groove;
+    background-color: white;
+    padding: 12px 120px;
+    border-bottom: 1px;
+    border-color: #3A35411F;
+    position: relative;
+}
+
+body {
+    background-color: #FFFDEE;
+    margin: auto;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family: "DM Sans";
+    font-weight: 500;
+}
+
+.profile span {
+    justify-content: center;
+    font-family: 'DM sans', sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 500;
+    color: #333333AD;
+}
+
+.announcementpembuka {
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 65px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(announcementpembuka.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.pembukacontent {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    padding: 0px;
+    gap: 12px;
+    width: 920px;
+    height: 215px;
+}
+
+.pembukacontent h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    margin: auto;
+    font-weight: 700;
+}
+
+.pembukacontent p {
+    font-family: 'Dm sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.announcementpembuka button {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 369px;
+    height: 42px;
+    padding: 10px 26px 10px 26px;
+    border-radius: 10px;
+    border-color: #3ECF4C;
+    background-color: #3ECF4C;
+    color: #FFFFFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-style: solid;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.judulmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;  
+}
+
+.judulmenu h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #222325;
+    margin-bottom: 0;
+}
+
+.judulmenu p {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgba(51, 51, 51, 0.68);
+    margin-bottom: 24px;
+    margin-top: 0;
+}
+
+.navbox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 24px;
+    gap: 32px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+
+.tabs {
+    padding: 12px 0;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.68);
+    text-decoration: none;
+    white-space: nowrap;
+    position: relative;
+}
+
+.semuakelas {
+    padding: 12px 0;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.68);
+    text-decoration: none;
+    white-space: nowrap;
+    position: relative;
+    color: #F64920;
+}
+
+.coursegrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    width: 100%;
+}
+
+.card {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid rgba(58, 53, 65, 0.12);
+    border-radius: 10px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.cardcontent {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.cardcontent h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #222325;
+    margin: 0;
+}
+
+.cardcontent p {
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.68);
+    margin-top: 0;
+    height: 20px;
+}
+.jennaortega{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.jennaortega h3 {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: #222325;
+}
+
+.jennaortega p{
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: rgba(51, 51, 51, 0.68);
+}
+
+.jennaortega img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-size: cover;
+    margin-right: 10px;
+    padding: 0;
+}
+
+
+.accountprofile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.accountprofile h3 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.accountprofile p{
+    margin-top: 0;
+    padding: 0;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    width: auto;
+    height: 0;
+    margin-bottom: 20px ;
+    gap: 6px;
+}
+
+.rating p {
+        margin-bottom: 0;
+        text-decoration-line: underline;
+        margin-left: 10px;
+}
+
+.pricetag {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: #3ecf4c;
+    margin-left: 60px;
+}
+
+.announcementpenutup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 65px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(announcementpenutup.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.announcementpenutup h4 {
+    justify-items: center;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25.2px;
+    color: #C1C2C4;
+    margin: 0;
+    letter-spacing: 1.5px;
+}
+
+.announcementpenutup h1 {
+    font-family: 'Poppins' , sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    line-height: 35.2px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.announcementpenutup p {
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    color: #F4F5FA;
+}
+
+.announcementpenutup span  {
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+    text-align: center; 
+    margin: 0;
+    margin-bottom: 45px;
+    color: #F4F5FA;
+}
+
+.buttoninsider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    width: 525px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 8px 8px 8px 32px ;
+    gap: 20px;
+    border-color: white;
+    margin: 0 ;
+    font-family: 'DM sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+    color: #333333AD;
+}
+
+.subsrcibeform {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #FFBD3A;
+    font-family: 'DM sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    border-color: #FFBD3A;
+    color: white;
+    border-style: solid;
+}
+
+.buttoninsider input {
+    width: 525px;
+    height: 50px; 
+    border-color: white;
+    border-style: solid;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    background: #ffffff;
+    border-top: 1px solid rgba(58, 53, 65, 0.12);
+}
+
+.footer-container {
+    width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-section {
+    width: 352px;
+    width: auto;
+    gap: 16px;
+}
+
+.footer-section img {
+    width: 204px;
+    height: 118px;
+    margin-top: 13px;
+    left: 5px;
+    margin-bottom: 0;
+}
+
+.footer-section p {
+    font-family: 'DM sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25.2px;
+    letter-spacing: 0.2px;
+    margin-bottom: 0;
+    color: #222325;
+    margin-top: 0   ;
+}
+
+.footer-section span {
+    font-family: 'DM sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25.2px;
+    letter-spacing: 0.2px;
+    margin-top: 0;
+    color: #222325;
+}
+
+.footer-section h4 {
+    font-family: 'DM sans', sans-serif;
+    font-weight: 400;
+    size: 16px;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+    color: #3A3541DE;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.footer-coloumn1 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    text-align: left;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+
+.footer-coloumn1 h4 {
+    font-family: 'DM sans', sans-serif;
+    font-weight: 700;
+    size: 16px;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+}
+
+.footer-coloumn2 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.footer-coloumn2 h4 {
+    font-family: 'DM sans', sans-serif;
+    font-weight: 700;
+    size: 16px;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+}
+
+.footer-coloumn3 h4 {
+    font-family: 'DM sans', sans-serif;
+    font-weight: 700;
+    size: 16px;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+}
+
+.footer-coloumn3 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.footer-container a {
+    font-family: 'DM sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+    color: #333333AD;
+    text-decoration: none;
+}
+
+.garisbawah {
+    width: 1200px;
+    height: 1px;
+    border: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #3A35411F;
+}
+
+.footer-bottom {
+    width: 1200px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #9c9c9c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+
+    header {
+        width: 100%;
+
+    }
+    .announcementpembuka{
+        width: 90%;
+        height: 300px;
+    }
+    .announcementpembuka h1 {
+        font-size: 1.5rem;
+    }
+    .announcementpembuka p{
+        width: 100%;
+    }
+
+    .announcementpembuka button {
+        width: 90%;
+    }
+    .coursegrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .pricetag {
+       padding-left: 350px;
+    }
+    .navbox a {
+        font-size: 0.8rem;
+        padding: 8px 10px;
+    }
+    .announcementpenutup{
+        width: 90%;
+    }
+    .footer-container {
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .footer-section, .footer-coloumn1, .footer-coloumn2, .footer-coloumn3 {
+        margin-left: 250px; /* Remove left margin */
+        margin-top: 10px; /* Add top margin */
+        text-align: left; /* Center text */
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+/* Iphone 12 Pro responsive */
+@media (max-width: 480px) {
+    body {
+        width: 100%;
+    }
+    header .profile img {
+        height: 30px;
+    }
+
+    .announcementpembuka {
+    width: 95%;
+    height: 450px;
+    }
+    .announcementpembuka button {
+    width: 85%;
+    font-size: 13px;
+    }
+    .announcementpembuka h1 {
+        width: 90%;
+        font-size: 24px;
+    }
+
+    .judulmenu h1 {
+        font-size: 30px;
+    }
+    
+    .judulmenu p {
+        font-size: 18px;
+    }
+
+    .coursegrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card {
+        width: 55%;
+    }
+
+    .cardcontent h1 {
+        font-size: 0.9rem;
+    }
+
+    .announcementpenutup {
+        width: 95%;
+    }
+
+    .announcementpenutup p {
+        width: 70%;
+    }
+
+    .cardcontent p {
+        font-size: 0.8rem;
+    }
+
+    .buttoninsider {
+        width: 80%;
+    }
+    
+    .footer-container {
+        flex-direction: column; /* Stack footer items vertically */
+        align-items: center; /* Center items */
+    }
+
+    .footer-section, .footer-coloumn1, .footer-coloumn2, .footer-coloumn3 {
+        margin-left: 0; /* Remove left margin */
+        margin-top: 10px; /* Add top margin */
+        text-align: left; /* Center text */
+    }
+
+    .footer-bottom {
+        flex-direction: column; /* Stack footer bottom items vertically */
+        align-items: center; /* Center items */
+        gap: 5px; /* Reduce gap */
+    }
+
+    .footer-coloumn1, .footer-coloumn2, .footer-coloumn3 {
+        width: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Header */
+    header {
+        padding: 12px 20px;
+    }
+
+    /* Profile section */
+    .profile {
+        gap: 15px;
+    }
+
+    /* Announcement section */
+    .announcementpembuka {
+        width: 90%;
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .pembukacontent {
+        width: 100%;
+        height: auto;
+    }
+
+    .pembukacontent h1 {
+        font-size: 32px;
+    }
+
+    .announcementpembuka button {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* Menu section */
+    .menu {
+        padding: 24px 16px;
+    }
+
+    .coursegrid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    /* Card adjustments */
+    .card {
+        width: 100%;
+    }
+
+    .pricetag h5 {
+        padding-left: 0;
+        justify-content: flex-end;
+    }
+
+    /* Announcement penutup */
+    .announcementpenutup {
+        width: 90%;
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .buttoninsider {
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        padding: 16px;
+    }
+
+    .buttoninsider input {
+        width: 100%;
+    }
+
+    .subsrcibeform {
+        width: 100%;
+    }
+
+    /* Footer */
+    .footer-container {
+        width: 90%;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+
+    .footer-coloumn1,
+    .footer-coloumn2,
+    .footer-coloumn3 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .footer-bottom {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .garisbawah {
+        width: 90%;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+/* For even smaller screens */
+@media (max-width: 480px) {
+    .pembukacontent h1 {
+        font-size: 24px;
+    }
+
+    .judulmenu h1 {
+        font-size: 24px;
+    }
+
+    .navbox {
+        gap: 16px;
+    }
+
+    .tabs, .semuakelas {
+        font-size: 14px;
+    }
+
+    .cardcontent h1 {
+        font-size: 16px;
+    }
+
+    .announcementpenutup h1 {
+        font-size: 24px;
+    }
+}
